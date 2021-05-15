@@ -11,7 +11,13 @@ There are no requirement. ( Only ansible should be correctly installed and ec2 i
 Role Variables
 --------------
 
-This role have no variable.
+Follwing parameters are there :
+
+| Sr.|  PARAMETER | NAME  | USE  | CHANGE PARAMETER AT LOCATION |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+|1. |   <b>cidr</b>     (String) ( Required ) | Kubernetes Cluster Network Range  | It denotes Network starting Ip. eg. : 10.240.0.0 | Update it in 'kubernetes-master-node-setup' role defaults/main.yml file or parameters.yml file or   in setup.yml file. | 
+
+
 
 Dependencies
 ------------
@@ -56,7 +62,13 @@ Author Information
 ### Support & Contact
 <b>
 Email: Kaushal95300@gmail.com </br>
+
 Linkedin : https://www.linkedin.com/in/kaushal-soni-988650146/ </br>
-Github : https://github.com/kush95300 </b> </br>
+
+Github : https://github.com/kush95300 
+
+Medium : https://kaushalsoni.medium.com </b>
+
+ </br>
 
 
