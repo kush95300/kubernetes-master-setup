@@ -48,11 +48,13 @@ Example Playbook
             role: kubernetes-master-setup
 
 ```
-License
--------
+License & COPYRIGHT
+-------------------
 
-BSD
-Free to use.
+ © Kaushal Soni
+ 
+ Licence Under the [MIT Licence](LICENSE)
+
 
 Author Information
 ------------------
